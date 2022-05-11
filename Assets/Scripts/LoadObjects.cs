@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class LoadObjects : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject MainCamera;
+    public GameObject MainCanvas;
+    public GameObject BackGround;
+
     void Start()
-    {
-        
-    }
+    {   
+        Instantiate(MainCamera);
+        Instantiate(BackGround);
+        Instantiate(MainCanvas);
+    }   
 
     // Update is called once per frame
     void Update()
