@@ -181,11 +181,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-<<<<<<< Updated upstream
     m_Font: {fileID: 12800000, guid: ded5e3e6199281d4499aa0c20c4aeba4, type: 3}
-=======
-    m_Font: {fileID: 12800000, guid: 1682745bb0ccf2d4d98ba5d70a2f74f7, type: 3}
->>>>>>> Stashed changes
     m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
@@ -330,11 +326,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-<<<<<<< Updated upstream
     m_Font: {fileID: 12800000, guid: ded5e3e6199281d4499aa0c20c4aeba4, type: 3}
-=======
-    m_Font: {fileID: 12800000, guid: 1682745bb0ccf2d4d98ba5d70a2f74f7, type: 3}
->>>>>>> Stashed changes
     m_FontSize: 70
     m_FontStyle: 1
     m_BestFit: 0
@@ -413,11 +405,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-<<<<<<< Updated upstream
     m_Font: {fileID: 12800000, guid: ded5e3e6199281d4499aa0c20c4aeba4, type: 3}
-=======
-    m_Font: {fileID: 12800000, guid: 1682745bb0ccf2d4d98ba5d70a2f74f7, type: 3}
->>>>>>> Stashed changes
     m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
