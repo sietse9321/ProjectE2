@@ -4,20 +4,15 @@ using UnityEngine;
 
 public class LoadObjects : MonoBehaviour
 {
-    public GameObject MainCamera;
-    public GameObject MainCanvas;
-    public GameObject BackGround;
-
+    public GameObject mainCanvas;
+    public GameObject backGround;
+    public GameObject mainCamera;
+    public GameObject manager;
     void Start()
-    {   
-        Instantiate(MainCamera);
-        Instantiate(BackGround);
-        Instantiate(MainCanvas);
-    }   
-
-    // Update is called once per frame
-    void Update()
     {
-        
+        Instantiate(backGround);
+        Instantiate(mainCanvas);
+        Instantiate(mainCamera);
+        Instantiate(manager);
     }
 }

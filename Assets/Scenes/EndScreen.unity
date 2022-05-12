@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 228882726}
   - component: {fileID: 228882725}
   - component: {fileID: 228882728}
+  - component: {fileID: 228882729}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -202,6 +203,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be1b4a7bd8d358741bde37c462579456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainCamera: {fileID: 4333641414706394504, guid: 37ec43006c30a7d4699f912f7f45afbe, type: 3}
-  MainCanvas: {fileID: 5561580266988611673, guid: 8bba049f4d95d1b48b1f1c0cc0d78492, type: 3}
-  BackGround: {fileID: 7752866690492885985, guid: b08b1e20680f88543a34274b2ff4030d, type: 3}
+  mainCanvas: {fileID: 5561580266988611673, guid: 8bba049f4d95d1b48b1f1c0cc0d78492, type: 3}
+  backGround: {fileID: 7752866690492885985, guid: b08b1e20680f88543a34274b2ff4030d, type: 3}
+  mainCamera: {fileID: 4333641414706394504, guid: 37ec43006c30a7d4699f912f7f45afbe, type: 3}
+  manager: {fileID: 4677128701030380502, guid: fc77ef1e926f27f42b5f527419723578, type: 3}
+--- !u!114 &228882729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228882724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4225d33d6462b034c86a373fc124a5d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Manager: {fileID: 228882724}
